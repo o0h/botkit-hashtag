@@ -2,8 +2,9 @@
   "name": "botkit-hashtag",
   "version": "0.0.1",
   "description": "Add \"hashtag-like\" feature to slack",
-  "main": "lib/index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "watch": "rollup -cw",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +21,24 @@
   "bugs": {
     "url": "https://github.com/o0h/botkit-hashtag/issues"
   },
-  "homepage": "https://github.com/o0h/botkit-hashtag#readme"
+  "homepage": "https://github.com/o0h/botkit-hashtag#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.7.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "prettier": "^1.14.3",
+    "rollup": "^0.66.6",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^3.4.0"
+  },
+  "dependencies": {
+    "@slack/client": "^4.8.0",
+    "date-fns": "^1.29.0"
+  }
 }
