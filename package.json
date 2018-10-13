@@ -1,0 +1,24 @@
+{
+  "name": "botkit-hashtag",
+  "version": "0.0.1",
+  "description": "Add \"hashtag-like\" feature to slack",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/o0h/botkit-hashtag.git"
+  },
+  "keywords": [
+    "botkit",
+    "slack",
+    "bot"
+  ],
+  "author": "Hideki Kinjyo <dev@o0h.in>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/o0h/botkit-hashtag/issues"
+  },
+  "homepage": "https://github.com/o0h/botkit-hashtag#readme"
+}
