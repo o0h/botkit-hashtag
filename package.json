@@ -5,6 +5,8 @@
   "main": "dist/index.js",
   "scripts": {
     "watch": "rollup -cw",
+    "prepublish": "rollup -c --environment INCLUDE_DEPS,BUILD:production",
+    "build": "rollup -c --environment INCLUDE_DEPS,BUILD:production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
